@@ -2,3 +2,4 @@ ease_build/
 *.exe
 *.pdb
 *.s
+*.ilk

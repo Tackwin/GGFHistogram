@@ -4,9 +4,13 @@
 #include <stdint.h>
 #include <string>
 
+#ifndef SIZE
 #define SIZE ((size_t)1024*1024*1024)
+#endif
+
+#ifndef BINS
 #define BINS (size_t)256
-//#define SIZE ((size_t)256*1)
+#endif
 
 #include <chrono>
 #include <omp.h>
