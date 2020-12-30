@@ -11,6 +11,7 @@ Build build(Flags flags) noexcept {
 
 	b.add_header("src/");
 	b.add_source_recursively("src/");
+	b.add_define("_CRT_SECURE_NO_WARNINGS");
 
 	return b;
 }
